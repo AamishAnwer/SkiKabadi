@@ -181,7 +181,11 @@ p {
 					
 					margin-bottom: 30px;
 	}
-
+.top-img {
+	height: 300px;
+	width: 350px;
+	padding-top: 10px;
+}
 }
 
 
@@ -196,14 +200,13 @@ p {
 
 
 
-* {
+* { 
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	outline: none;
 	box-sizing: border-box;
 }
-
 html {
 	color: #fff;
 }
@@ -377,7 +380,7 @@ li > a:hover {
 					grid-template: 280px 280px 320px / 1fr;
 					justify-content: center;
 					gap: 0;
-					width: 511.20px;
+					width: 380px;
 					height: 700px;
 	}
 
