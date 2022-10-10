@@ -373,16 +373,16 @@ li > a:hover {
 
 
 
-
-@media (max-width: 576px) {
-	.main-content {
-					display: grid;
-					grid-template: 280px 280px 200px / 1fr;
-					justify-content: center;
-					gap: 0;
-					width: 380px;
-					height: 700px;
-	}
+@media (max-width: 576px){
+.main-content {
+    display: grid;
+    grid-template: 280px 280px 100px / 1fr;
+    justify-content: center;
+    gap: 0;
+    width: 380px;
+    height: 700px;
+    margin-bottom: -20px;
+}
 
 	.right-section {
 					grid-column: 1 / 2;
